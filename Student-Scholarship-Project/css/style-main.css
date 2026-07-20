@@ -6,12 +6,10 @@ body{
 .style-div{
     margin: 0;
     padding: 5px;
-    /* background-color: rgb(21, 106, 121); */
-    background-image: url(../images/picture.jpg);
+    background-color: rgb(21, 106, 121);
     height: auto;
     width: auto;
     text-align: right;
-    border-radius: 10px;
 
     button{
         background-color: whitesmoke;
@@ -60,7 +58,6 @@ body{
     font-size: large;
     font-weight: bolder;
     padding: 10px;
-    border-radius: 5px;
     height: 350px;
     background-color: rgb(21, 106, 121);
 }

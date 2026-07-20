@@ -1,0 +1,28 @@
+.style-form{
+    margin: 100px 200px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+    font-size: large;
+    font-weight: bolder;
+    border: 1px solid black;
+    .style-link{
+        a:link{
+            text-decoration: none;
+            color: black;
+            font-size: larger;
+            font-weight: bolder;
+        }
+}
+
+}
+
+.style-instructions{
+    margin: 100px;
+    padding: 10px;
+    background-color: rgb(250, 250, 103);
+    border-radius: 25px;
+    font-size: large;
+    font-weight: bolder;
+}
+
