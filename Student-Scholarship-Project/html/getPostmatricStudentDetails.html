@@ -25,12 +25,13 @@
 	<div class="style-instructions">
 		<h3>Following below Instrunctions</h3>
 		<ul>
-			<li> /* Fill details properlly</li>
+			<li>Fill details properlly</li>
+			<li>you might notice that right side astrick(*) symbol for required that details</li>
 			<li>verify details from original documents befor fill personal details</li>
 			<li>verify details from acadamic office befor fill college details</li>
 			<li>verify details from hostal office befor fill hostal details</li>
 			<li>verify details from original bank documents befor fill bank details</li>
-			<li>if in case this details does't match with originals? reject your application */ </li>
+			<li>if in case this details does't match with originals? reject your application</li>
 		</ul>
 	</div>
 
@@ -41,7 +42,7 @@
 				<legend>personal details</legend>
 
 				<label for="fname">Full Name : </label>
-				<input type="text" name="name" id="fname" required="true" placeholder="enter full name"><br><br>
+				<input type="text" name="name" id="fname" required="true" placeholder="enter full name"><p id="style-p">*</p><br><br>
 
 				<label>Gender : </label>
 
@@ -55,16 +56,13 @@
 				<label for="others">Others</label><br><br>
 
 				<label for="dob">Date Of Birth : </label>
-				<input type="date" id="dob" name="dob" required="true"><br><br>
+				<input type="date" id="dob" name="dob" required="true"><p id="style-p">*</p><br><br>
 
 				<label for="fname">Father Name : </label>
-				<input type="text" name="fname" id="fname" required="true" placeholder="enter father name"><br><br>
+				<input type="text" name="fname" id="fname" required="true" placeholder="enter father name"><p id="style-p">*</p><br><br>
 
 				<label for="mname">Mother Name : </label>
-				<input type="text" name="mname" id="mname" required="true" placeholder="enter Mother name"><br><br>
-
-				<label for="gname">Guardian Name : </label>
-				<input type="text" name="gname" id="gname" required="true" placeholder="enter Guardian name"><br><br>
+				<input type="text" name="mname" id="mname" required="true" placeholder="enter Mother name"><p id="style-p">*</p><br><br>
 
 				<label for="pnum">Phone Number : </label>
 				<input type="tel" id="pnum" name="pnum" placeholder="0123456789" pattern="[0123456789]{10}"><br><br>
@@ -73,7 +71,7 @@
 				<input type="email" id="email" name="email" placeholder="abcd@example.com"><br><br>
 
 				<label for="address">Address : </label><br><br>
-				<textarea name="address" id="address" rows="10" cols="50" placeholder="type address here" required="true"></textarea><br><br>
+				<textarea name="address" id="address" rows="10" cols="50" placeholder="type address here" required="true"></textarea><p id="style-p">*</p><br><br>
 				
 			</fieldset>
 
@@ -81,13 +79,16 @@
 				<legend>college details</legend>
 
 				<label for="cname">College Name : </label>
-				<input type="text" name="cname" id="cname" required="true" placeholder="enter college name"><br><br>
+				<input type="text" name="cname" id="cname" required="true" placeholder="enter college name"><p id="style-p">*</p><br><br>
+
+				<label for="coname">Course Name : </label>
+				<input type="text" name="coname" id="coname" required="true" placeholder="enter course name"><p id="style-p">*</p><br><br>
 
 				<label for="year">Year of study : </label>
-				<input type="number" name="year" id="year" required="true" placeholder="[1-4]" min="1" max="4"><br><br>
+				<input type="number" name="year" id="year" required="true" placeholder="[1-4]" min="1" max="4"><p id="style-p">*</p><br><br>
 
 				<label for="college-address">School Address : </label><br><br>
-				<textarea name="college-address" id="college-address" rows="10" cols="50" placeholder="type college address here" required="true"></textarea><br><br>			
+				<textarea name="college-address" id="college-address" rows="10" cols="50" placeholder="type college address here" required="true"></textarea><p id="style-p">*</p><br><br>			
 			</fieldset>
 
 			<fieldset class="style-fieldset">
@@ -104,19 +105,19 @@
 				<legend>Bank details</legend>
 
 				<label for="bname">Bank Name : </label>
-				<input type="text" id="bname" name="bname" required="true" placeholder="enter bank name"><br><br>
+				<input type="text" id="bname" name="bname" required="true" placeholder="enter bank name"><p id="style-p">*</p><br><br>
 
 				<label for="account-num">Account Number : </label>
-				<input type="number" id="account-num" name="account-num" required="true" placeholder="[1-13]" pattern="[1-13]{13}"><br><br>
+				<input type="number" id="account-num" name="account-num" required="true" placeholder="[1-13]" pattern="[1-13]{13}"><p id="style-p">*</p><br><br>
 
 				<label for="account-num">IFSC code : </label>
-				<input type="password" id="IFSCcode" name="IFSCcode" required="true" placeholder="[1-11]" pattern="[1-11]{11}"><br><br>
+				<input type="password" id="IFSCcode" name="IFSCcode" required="true" placeholder="[1-11]" pattern="[1-11]{11}"><p id="style-p">*</p><br><br>
 
 				<label for="brname">Branch Name : </label>
-				<input type="text" id="brname" name="brname" required="true" placeholder="enter bank Branch name"><br><br>
+				<input type="text" id="brname" name="brname" required="true" placeholder="enter bank Branch name"><p id="style-p">*</p><br><br>
 
 				<label for="baddress">Bank Address : </label><br><br>
-				<textarea name="baddress" id="baddress" rows="10" cols="50" placeholder="type Bank address here" required="true"></textarea><br><br>
+				<textarea name="baddress" id="baddress" rows="10" cols="50" placeholder="type Bank address here" required="true"></textarea><p id="style-p">*</p><br><br>
 			</fieldset>
 			
 			<button>submit</button>
