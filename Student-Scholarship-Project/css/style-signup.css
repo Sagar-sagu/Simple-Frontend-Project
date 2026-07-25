@@ -6,7 +6,7 @@
     font-size: large;
     font-weight: bolder;
     border: 1px solid black;
-    button{
+    #style-button{
         background-color: rgb(0, 128, 111);
         color: whitesmoke;
         border-radius: 5px;
@@ -16,12 +16,10 @@
         font-weight: bolder;
         margin-bottom: 20px;
     }
-    p{
+    #style-p{
         display: inline;
         color: red;
     }
-
-
 }
 
 .style-instructions{
@@ -45,4 +43,14 @@
         color: rgb(255, 72, 0);
         font-size: 25px;
     }
+}
+
+.style-profile{
+    margin: 100px 200px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+    font-size: large;
+    font-weight: bolder;
+    border: 1px solid black;
 }
