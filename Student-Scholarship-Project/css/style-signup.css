@@ -6,14 +6,16 @@
     font-size: large;
     font-weight: bolder;
     border: 1px solid black;
-    .style-link{
-        a:link{
-            text-decoration: none;
-            color: black;
-            font-size: larger;
-            font-weight: bolder;
-        }
-}
+    a:link{
+        text-decoration: none;
+        color: black;
+        font-size: larger;
+        font-weight: bolder;
+    }
+    button{
+        font-size: 10px;
+        font-weight: bolder;
+    }
 
 }
 
@@ -26,3 +28,45 @@
     font-weight: bolder;
 }
 
+.style-fieldset{
+    margin: 100px 200px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+    font-size: large;
+    font-weight: bolder;
+    border: 1px solid black;
+    legend{
+        color: rgb(255, 72, 0);
+        font-size: 25px;
+    }
+}
+
+.style-button{
+    text-align: center;
+
+    #style-button-next{
+        background-color: green;
+        border-radius: 5px;
+        border-style: solid;
+        text-align: center;
+        margin: 50px;
+        /* text-align: right; */
+    }
+
+    #style-button-back{
+        background-color: red;
+        border-radius: 5px;
+        border-style: solid;
+        text-align: center;
+        margin: 50px;
+        /* text-align: left; */
+    }
+
+    a:link{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: large;
+        font-weight: bolder;
+    }
+}
