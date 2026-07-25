@@ -6,14 +6,13 @@
     font-size: large;
     font-weight: bolder;
     border: 1px solid black;
-    a:link{
-        text-decoration: none;
-        color: black;
+     button{
+        background-color: rgb(0, 128, 111);
+        color: whitesmoke;
+        border-radius: 5px;
+        border-style: solid;
+        text-align: center;
         font-size: larger;
-        font-weight: bolder;
-    }
-    button{
-        font-size: 10px;
         font-weight: bolder;
     }
 
@@ -39,34 +38,5 @@
     legend{
         color: rgb(255, 72, 0);
         font-size: 25px;
-    }
-}
-
-.style-button{
-    text-align: center;
-
-    #style-button-next{
-        background-color: green;
-        border-radius: 5px;
-        border-style: solid;
-        text-align: center;
-        margin: 50px;
-        /* text-align: right; */
-    }
-
-    #style-button-back{
-        background-color: red;
-        border-radius: 5px;
-        border-style: solid;
-        text-align: center;
-        margin: 50px;
-        /* text-align: left; */
-    }
-
-    a:link{
-        text-decoration: none;
-        color: whitesmoke;
-        font-size: large;
-        font-weight: bolder;
     }
 }

@@ -1,0 +1,7 @@
+function setStudentsApplicationDetails(){
+
+}
+
+function getStudentsApplicationDetails(){
+    
+}
