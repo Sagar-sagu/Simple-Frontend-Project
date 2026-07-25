@@ -30,43 +30,19 @@
         
 		<form autocomplete="on">
 			<fieldset class="style-fieldset">
-				<legend>personal details</legend>
+				<legend>school details</legend>
 
-				<label for="fname">Full Name : </label>
-				<input type="text" name="name" id="fname" required="true" placeholder="enter full name"><br><br>
+				<label for="sname">School Name : </label>
+				<input type="text" name="sname" id="sname" required="true" placeholder="enter school name"><br><br>
 
-				<label>Gender : </label>
+				<label for="class">standard of study : </label>
+				<input type="number" name="class" id="class" required="true" placeholder="[1-10]" min="1" max="10"><br><br>
 
-				<input type="radio" id="male" name="gender" value="Male">
-				<label for="male">Male</label>
-
-				<input type="radio" id="female" name="gender" value="FeMale">
-				<label for="female">FeMale</label>
-
-				<input type="radio" id="others" name="gender" value="Others">
-				<label for="others">Others</label><br><br>
-
-				<label for="dob">Date Of Birth : </label>
-				<input type="date" id="dob" name="dob" required="true"><br><br>
-
-				<label for="fname">Father Name : </label>
-				<input type="text" name="fname" id="fname" required="true" placeholder="enter father name"><br><br>
-
-				<label for="mname">Mother Name : </label>
-				<input type="text" name="mname" id="mname" required="true" placeholder="enter Mother name"><br><br>
-
-				<label for="gname">Guardian Name : </label>
-				<input type="text" name="gname" id="gname" required="true" placeholder="enter Guardian name"><br><br>
-
-				<label for="pnum">Phone Number : </label>
-				<input type="tel" id="pnum" name="pnum" placeholder="0123456789" pattern="[0-9]{10}"><br><br>
-
-				<label for="email">E-mail : </label>
-				<input type="email" id="email" name="email" placeholder="abcd@example.com"><br><br>
-
-				<label for="address">Address : </label><br><br>
-				<textarea name="address" rows="10" cols="50" placeholder="type address here"></textarea><br><br>
+				<label for="school-address">School Address : </label><br><br>
+				<textarea name="school-address" id="school-address" rows="10" cols="50" placeholder="type school address here" required="true"></textarea><br><br>
+				
 				<button>submit</button>
+
 			</fieldset>
 		</form>
     </div>
