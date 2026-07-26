@@ -7,7 +7,7 @@
 	<link rel="icon" type="image/x-icon" href="../images/govOfKarnatakaLogo.jpg">
 	<link rel="stylesheet" type="text/css" href="../css/style-main.css">
 	<link rel="stylesheet" type="text/css" href="../css/style-signup.css">
-	<script src="../javascript/logInCredentials.js"></script>
+	<!-- <script src="../javascript/logInCredentials.js"></script> -->
 </head>
 <body>
 	<div class="style-div">
@@ -36,20 +36,22 @@
 	<div class="style-form">
 		<h1>Create Account</h1>
 
-		<form>
-			<label for="stu-Fname">Enter Full Name : </label>
-			<input type="text" id="stu-Fname" name="Fname" required="true"><br><br>
+		<form id="createAccount">
+			<label for="fullName">Enter Full Name : </label>
+			<input type="text" id="fullName" name="fullName" required="true" placeholder="enter full name"><br><br>
 
-			<label for="stu-Uname">Create User Name : </label>
-			<input type="text" id="stu-Uname" name="Uname" required="true"><br><br>
+			<label for="userName">Create User Name : </label>
+			<input type="text" id="userName" name="userName" required="true" placeholder="create user name"><br><br>
 
-			<label for="stu-password">Create Password  : </label>
-			<input type="password" id="stu-password" name="password" required="true"><br><br>
+			<label for="password">Create Password  : </label>
+			<input type="password" id="password" name="password" required="true" placeholder="create password"><br><br>
+			<p id="test-password"></p>
 
-			<label for="stu-re-password">Re Enter Password: </label>
-			<input type="password" id="stu-re-password" name="rePassword" required="true"><br><br>
+			<label for="rePassword">Re Enter Password: </label>
+			<input type="password" id="rePassword" name="rePassword" required="true" placeholder="re-enter password"><br><br>
+			<p id="re-password"></p>
 
-			<button id="style-button">submit</button>
+			<button id="style-button" type="button">submit</button>
 
 			<p>Alerdy have Account?<a href="login.html">login</a></p>
 		</form>
@@ -72,5 +74,6 @@
 
 		<p>©Copyright 2026 Center for e-Governance - Karnataka State Government.</p>
 	</div>
+	<script src="../javascript/logInCredentials.js"></script>
 </body>
 </html>
