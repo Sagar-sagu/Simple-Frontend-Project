@@ -6,8 +6,7 @@
 	<title>signup</title>
 	<link rel="icon" type="image/x-icon" href="../images/govOfKarnatakaLogo.jpg">
 	<link rel="stylesheet" type="text/css" href="../css/style-main.css">
-	<link rel="stylesheet" type="text/css" href="../css/style-signup.css">
-	<!-- <script src="../javascript/logInCredentials.js"></script> -->
+	<link rel="stylesheet" type="text/css" href="../css/style-signup.css">	
 </head>
 <body>
 	<div class="style-div">
@@ -36,12 +35,14 @@
 	<div class="style-form">
 		<h1>Create Account</h1>
 
-		<form id="createAccount">
+		<form name="createAccount" method="post">
 			<label for="fullName">Enter Full Name : </label>
 			<input type="text" id="fullName" name="fullName" required="true" placeholder="enter full name"><br><br>
+			<p id="test-name"></p>
 
 			<label for="userName">Create User Name : </label>
 			<input type="text" id="userName" name="userName" required="true" placeholder="create user name"><br><br>
+			<p id="test-uname"></p>
 
 			<label for="password">Create Password  : </label>
 			<input type="password" id="password" name="password" required="true" placeholder="create password"><br><br>
@@ -49,9 +50,9 @@
 
 			<label for="rePassword">Re Enter Password: </label>
 			<input type="password" id="rePassword" name="rePassword" required="true" placeholder="re-enter password"><br><br>
-			<p id="re-password"></p>
+			<p id="test-re-password"></p>
 
-			<button id="style-button" type="button">submit</button>
+			<button id="style-button" type="button" onclick="createAccount()">submit</button>
 
 			<p>Alerdy have Account?<a href="login.html">login</a></p>
 		</form>
@@ -74,6 +75,8 @@
 
 		<p>©Copyright 2026 Center for e-Governance - Karnataka State Government.</p>
 	</div>
-	<script src="../javascript/logInCredentials.js"></script>
+
+	<script src="../javascript/logInCredentials.js" defer></script>
+	
 </body>
 </html>

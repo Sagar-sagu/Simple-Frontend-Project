@@ -1,19 +1,16 @@
-// function createAccount(){
-console.log("hi")
-const caform = document.getElementById('createAccount');
-caform.addEventListener('submit',function(event){
-    event.preventDefault();
+function createAccount(){
+    const studentDetails = document.forms["createAccount"]["fullName"].value;
+    alert(studentDetails);
+    if (studentDetails.trim().length === 0 || studentDetails.trim() === "") {
+        document.getElementById("test-name").innerHTML = "enter valid name";
+    }
+}
 
-    const formData = new FormData(caform);
-
-    const allData = Object.fromEntries(formData);
-
-    const n = formData.get('fullName');
-    console.log(n);
-
-    console.log(allData);
+document.addEventListener('DOMContentLoaded', () => {
+  const btn = document.getElementById('style-button');
+  if (btn) btn.addEventListener('click', createAccount);
 });
-// }
+
 
 // function getAccountCredentialsForLogInTest(){
 
