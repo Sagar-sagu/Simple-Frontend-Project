@@ -25,16 +25,19 @@
 	<div class="style-form">
 		<h1>log in</h1>
 
-		<form>
+		<form name="login" method="post">
 			<label for="stu-Uname">User Name : </label>
-			<input type="text" id="stu-Uname" name="Uname"><br><br>
+			<input type="text" id="stu-Uname" name="userName"><br><br>
+			<p id="test-username"></p>
 
 			<label for="stu-password">Password  : </label>
 			<input type="password" id="stu-password" name="password" ><br><br>
+			<p id="test-password"></p>
 
-			<label>captcha: ewfF12 <button>refresh</button></label><br><br>
+			<label>captcha: <span id="captcha"></span> <button type="button" onclick="GenerateCaptcha()">refresh</button></label><br><br>
 			<label for="stu-captcha">Enter captcha : </label>
 			<input type="text" id="stu-captcha" name="captcha" ><br><br>
+			<p id="test-captcha"></p>
 
 			<button id="style-button">submit</button>
 			
